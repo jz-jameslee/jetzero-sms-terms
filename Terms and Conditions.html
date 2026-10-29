@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Terms and Conditions</title>
+<style>
+  :root {
+    --bg: #fafaf9;
+    --surface: #ffffff;
+    --ink: #1c1c1a;
+    --ink-soft: #52524d;
+    --rule: #e2e0da;
+    --accent: #2f4538;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #15151a;
+      --surface: #1c1c22;
+      --ink: #ededee;
+      --ink-soft: #a8a8ae;
+      --rule: #302f38;
+      --accent: #8fb79c;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #15151a;
+    --surface: #1c1c22;
+    --ink: #ededee;
+    --ink-soft: #a8a8ae;
+    --rule: #302f38;
+    --accent: #8fb79c;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+  body {
+    margin: 0;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+    line-height: 1.65;
+  }
+  .wrap {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 4rem 1.5rem 6rem;
+  }
+  .masthead {
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 2rem;
+    margin-bottom: 2.5rem;
+  }
+  .brand {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.04em;
+    color: var(--ink-soft);
+    margin: 0 0 0.75rem;
+  }
+  h1 {
+    font-size: 2.1rem;
+    font-weight: 500;
+    margin: 0 0 0.4rem;
+    letter-spacing: -0.01em;
+  }
+  .updated {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.85rem;
+    color: var(--ink-soft);
+  }
+  h2 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 2.2rem 0 0.75rem;
+  }
+  p { margin: 0 0 1rem; color: var(--ink); }
+  .callout {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--accent);
+    padding: 1.1rem 1.3rem;
+    border-radius: 2px;
+    margin: 1.5rem 0;
+  }
+  .callout p { margin: 0; font-style: italic; }
+  ul { padding-left: 1.3rem; margin: 0 0 1rem; }
+  li { margin-bottom: 0.4rem; }
+  footer {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.8rem;
+    color: var(--ink-soft);
+  }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="masthead">
+    <p class="brand">JetZero Inc.</p>
+    <h1>Terms and Conditions</h1>
+    <p class="updated">Last updated: October 2026 — applies to JetZero Inc.'s internal IT alert SMS notification system</p>
+  </div>
+
+  <p>These Terms and Conditions govern participation in JetZero Inc.'s ("JetZero") internal SMS alert notification system, used to notify designated IT staff of critical information technology incidents logged in JetZero's internal service management system.</p>
+
+  <h2>Eligibility</h2>
+  <p>This service is available only to JetZero employees designated as IT support technicians or on-call personnel. It is not available to the public or to customers.</p>
+
+  <h2>Enrollment and consent</h2>
+  <p>Employees are enrolled by JetZero IT management, who verbally explain the purpose of the service and obtain the employee's consent and mobile phone number before enrollment. Enrollment is voluntary and tied to the employee's operational role.</p>
+
+  <h2>SMS Terms</h2>
+  <p>By enrolling, you agree to receive automated text messages from JetZero's IT alert system when a critical-priority ticket is created or updated. Message frequency varies based on incident volume. You may withdraw consent at any time by notifying JetZero IT management, after which your number will be removed from the system and you will no longer receive these messages.</p>
+
+  <div class="callout">
+    <p>Message and data rates may apply.</p>
+  </div>
+
+  <h2>Service description</h2>
+  <p>Messages sent through this system include a ticket reference number, priority level, and a brief description of the reported issue, to allow the recipient to respond promptly to critical incidents.</p>
+
+  <h2>No warranty</h2>
+  <p>While JetZero takes reasonable steps to ensure reliable delivery of these alerts, SMS delivery is dependent on third-party carrier networks and is not guaranteed. This system is a supplementary notification tool and should not be relied upon as the sole means of incident awareness.</p>
+
+  <h2>Changes to these terms</h2>
+  <p>JetZero may update these Terms and Conditions from time to time. Continued enrollment in the alert system after changes are posted constitutes acceptance of the updated terms.</p>
+
+  <h2>Contact us</h2>
+  <p>Questions about these Terms and Conditions may be directed to JetZero Inc.'s IT department through standard internal channels.</p>
+
+  <footer>
+    JetZero Inc. — Internal IT Operations
+  </footer>
+</div>
+</body>
+</html>
